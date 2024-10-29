@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>country search</title>
+  
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div style="height: 100vh; width: 100%; background-image: url('https://img.freepik.com/premium-photo/global-network-design-earth-globe-covered-with-glowing-net-ai-technology_717906-1677.jpg'); background-repeat: no-repeat; background-size: cover;" class="d-flex justify-content-center align-items-center">
+        <div class="p-5 shadow-lg rounded-4 bg-white" style="width: 500px;">
+            <h4 class="text-center my-3">Know about Countries</h4>
+            <input type="text" class="form-control border border-dark my-3 " placeholder="Enter country name" id="countryName">
+            <button class="btn btn-success w-100" type="button" onclick="search()"><i class="fa-solid fa-magnifying-glass fa-2x" ></i></button>
+        </div>
+        <!-- card  -->
+        <div id="result">
+          <div class="card mx-3 " style="width: 18rem;">
+            <!-- <img src="" id="flag" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Country : </h5>
+            </div> -->
+            <!-- <ul class="list-group list-group-flush">
+              <li class="list-group-item">Name: </li>
+              <li class="list-group-item">A second item</li>
+
+            </ul> -->
+          </div>
+        </div>
+    </div>
+</body>
+<script src="./country.js"></script>
+</html>
